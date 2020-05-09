@@ -9,8 +9,6 @@ variable "private_subnet_cidr"{
 variable "instance_type"{}
 variable "key_name"{}
 variable "public_key_path"{}
-variable "domain_name"{}
-variable "delegation_set"{}
 variable "tags"{
     type = "map"
 }
